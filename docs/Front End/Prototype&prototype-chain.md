@@ -1,6 +1,6 @@
 ---
 title: 原型和原型链
-date: 2022-06-16
+date: 2022-06-16 14:48:01 -0800
 tags: 
     - JavaScript
 categories: 

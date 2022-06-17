@@ -3,7 +3,6 @@ import type { DefaultThemeOptions } from 'vuepress'
 import recoTheme from 'vuepress-theme-reco'
 
 export default defineUserConfig({
-  base:'/my-blog/',
   title: 'Joey Ma',
   head:[
     ['link',{rel:'icon',href:'./yezi.svg'}],
@@ -15,9 +14,8 @@ export default defineUserConfig({
     logo: '/logo.jpg',
     author: 'Joey Ma',
     authorAvatar: '/logo.jpg',
-    docsRepo: 'https://github.com/Willianxian/my-blog',
-    docsBranch: 'gh-pages',
-    docsDir: 'example',
+    docsRepo: 'https://github.com/Willianxian/willianxian.github.io',
+    docsBranch: 'gh-pages2.0',
     lastUpdatedText: '最后更新',
     // series 为原 sidebar
     series: {
@@ -49,9 +47,10 @@ export default defineUserConfig({
       appId: 'rIcSknoiSLO9yS24fnq3NYXo-gzGzoHsz',
       appKey: 'epi9OdWGu1jSKNNPJ6jMR4cP',
       placeholder: '填写邮箱可以收到回复提醒哦！',
-      verify: true, // 验证码服务
-      // notify: true,
+      // verify: true, // 验证码服务，已废弃
+      // notify: true,//通知功能，已废弃
       recordIP: true,
+      avatar:'robohash'
       // hideComments: true // 隐藏评论
     },
   }),
