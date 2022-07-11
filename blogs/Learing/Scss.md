@@ -2,7 +2,7 @@
 title: Scss 基本语法
 date: 2022-06-16 14:48:01 -0800
 tags: 
-    - css
+    - CSS
 categories: 
     - Notes
 ---

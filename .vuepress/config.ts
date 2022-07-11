@@ -1,23 +1,26 @@
 import { defineUserConfig } from 'vuepress'
-import type { DefaultThemeOptions } from 'vuepress'
 import recoTheme from 'vuepress-theme-reco'
+import {mediumZoomPlugin} from '@vuepress/plugin-medium-zoom'
+
 
 export default defineUserConfig({
-  title: 'Joey Ma',
+ 
+  title: 'JoeyMa`s Blog',
   head:[
-    ['link',{rel:'icon',href:'./yezi.svg'}],
+    ['link',{rel:'icon',href:'/yezi.svg'}],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
   description: 'Just playing around',
+  lang: 'zh-CN',
   theme: recoTheme({
     style: '@vuepress-reco/style-default',
-    logo: '/logo.jpg',
+    logo: '/head_portrait.jpg',
     author: 'Joey Ma',
-    authorAvatar: '/logo.jpg',
-    docsRepo: 'https://github.com/Willianxian/willianxian.github.io',
-    docsBranch: 'gh-pages2.0',
+    authorAvatar: '/head_portrait.jpg',
+    editLink:false,
     lastUpdatedText: '最后更新',
     // series 为原 sidebar
+    // componentsDir: '/.vuepress/components',
     series: {
       '/docs/theme-reco/': [
         {
@@ -39,14 +42,14 @@ export default defineUserConfig({
     navbar:
     [
       { text: '主页', link: '/' },
-      { text: '归档', link: '/categories/Notes/1/' },
-      { text: '标签', link: '/tags/jieshao/1/' },
+      { text: '分类', link: '/categories/Notes/1/' },
+      { text: '标签', link: '/tags/introduce/1/' },
       { text: '关于',link: '/blogs/other/aboutBlog'},
     ],
     valineConfig: {
       appId: 'rIcSknoiSLO9yS24fnq3NYXo-gzGzoHsz',
       appKey: 'epi9OdWGu1jSKNNPJ6jMR4cP',
-      placeholder: '填写邮箱可以收到回复提醒哦！',
+      placeholder: '支持markdown语法形式',
       // verify: true, // 验证码服务，已废弃
       // notify: true,//通知功能，已废弃
       recordIP: true,
@@ -55,4 +58,14 @@ export default defineUserConfig({
     },
   }),
   // debug: true,
+  plugins:[
+    mediumZoomPlugin({
+      zoomOptions:{
+      margin: 24,
+      background: '#22272e',
+      scrollOffset: 0,
+     }
+    }),
+    
+  ]
 })

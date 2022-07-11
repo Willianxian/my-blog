@@ -14,5 +14,8 @@
   "dependencies": {
     "vuepress": "2.0.0-beta.46",
     "vuepress-theme-reco": "2.0.0-beta.16"
+  },
+  "devDependencies": {
+    "vuepress-plugin-smooth-scroll": "^0.0.10"
   }
 }

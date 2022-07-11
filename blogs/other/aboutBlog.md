@@ -2,11 +2,11 @@
 title: 关于博客
 date: 2022-06-15 16:48:01 -0800
 tags: 
-    - 介绍
+    - introduce
 ---
 # 关于博客 :book:
 
-此博客的介绍：博客是通过Vuepres博客主题[vuepress-reco 2.x](http://v2.vuepress-reco.recoluan.com/),博客代码的存储仓库位于[这里](https://github.com/Willianxian/my-blog)
+此博客的介绍：博客是通过Vuepress博客主题[vuepress-reco 2.x](http://v2.vuepress-reco.recoluan.com/)搭建,博客代码的存储仓库位于[GitHub](https://github.com/Willianxian/willianxian.github.io)、[Gitee](https://gitee.com/Joey_Ma/joey_ma)
 
 ## 为什么要搭建一个博客
 
