@@ -1,11 +1,14 @@
 ---
+
 title: Scss 基本语法
 date: 2022-06-16 14:48:01 -0800
 tags: 
-    - CSS
+    - Scss
 categories: 
     - Notes
+
 ---
+
 # Scss 基本语法
 
 >    Scss 在 CSS 语法的基础上增加了变量 (variables)、嵌套 (nested rules)、混合 (mixins)、导入 (inline imports) 等高级功能，实现更高效地开发网站前端。 

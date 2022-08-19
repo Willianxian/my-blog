@@ -1,0 +1,8 @@
+/* @import '@vuepress-reco/tailwindcss-config/lib/client/styles/tailwindcss-base.css' */
+
+:root {
+    scroll-behavior: smooth;
+  }
+  img{
+    max-width: 80%;
+  }

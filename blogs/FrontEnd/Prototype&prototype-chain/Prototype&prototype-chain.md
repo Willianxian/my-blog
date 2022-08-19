@@ -53,8 +53,8 @@ let a = new h('lbw',18);
     b.identity =  'teacher';
     console.log(a,b);
     /*
-    Stu {identity: 'student', name: 'lbw'} 
-    Stu {identity: 'teacher', name: 'pdd'}
+    Stu  {identity: 'student', name: 'lbw'} 
+    Stu  {identity: 'teacher', name: 'pdd'}
     */
 ```
 
